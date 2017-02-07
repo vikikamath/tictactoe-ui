@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic-Tac-Toe</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="game">
+		<div class="state">
+			<div class="nextmove">Next Move:<span class="x">X</span></div>
+			<div class="button">Reset</div>
+		</div>
+
+		<div class="board">
+			<div class="row">
+				<div id="0,0" class="child"></div>
+				<div id="0,1" class="child"></div>
+				<div id="0,2" class="child"></div>
+			</div>
+			<div class="row">
+				<div id="1,0" class="child"></div>
+				<div id="1,1" class="child"></div>
+				<div id="1,2" class="child"></div>
+			</div>
+			<div class="row">
+				<div id="2,0" class="child"></div>
+				<div id="2,1" class="child"></div>
+				<div id="2,2" class="child"></div>
+			</div>
+		</div>
+	</div>
+	<div class="modal">
+		<div class="modal-content">
+    		<span class="close">&times;</span>
+    		<p class="text"></p>
+  		</div>
+	</div>
+	<script src="bundle.js"></script>
+</body>
+</html>
